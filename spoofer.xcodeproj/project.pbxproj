@@ -15,6 +15,9 @@
 		0C4099BA1E37C21600D79582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4099B81E37C21600D79582 /* Main.storyboard */; };
 		0C4099BC1E37C21600D79582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C4099BB1E37C21600D79582 /* Assets.xcassets */; };
 		0C4099BF1E37C21600D79582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4099BD1E37C21600D79582 /* LaunchScreen.storyboard */; };
+		0C4099C71E37C3C700D79582 /* default.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0C4099C61E37C3C700D79582 /* default.gpx */; };
+		0C60AB6C1E5F79DC000DC043 /* GpsiesTrack.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0C60AB6B1E5F79DC000DC043 /* GpsiesTrack.gpx */; };
+		0C60AB6E1E5F7A58000DC043 /* GpsiesTrack (1).gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0C60AB6D1E5F7A58000DC043 /* GpsiesTrack (1).gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,10 @@
 		0C4099BB1E37C21600D79582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C4099BE1E37C21600D79582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C4099C01E37C21600D79582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C4099C61E37C3C700D79582 /* default.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = default.gpx; path = ../../Downloads/default.gpx; sourceTree = "<group>"; };
+		0C60AB6B1E5F79DC000DC043 /* GpsiesTrack.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = GpsiesTrack.gpx; path = ../../Downloads/GpsiesTrack.gpx; sourceTree = "<group>"; };
+		0C60AB6D1E5F7A58000DC043 /* GpsiesTrack (1).gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "GpsiesTrack (1).gpx"; path = "../../Downloads/GpsiesTrack (1).gpx"; sourceTree = "<group>"; };
+		0CC0CD7B1E60C85A00E1A03B /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,10 @@
 		0C4099A21E37C21600D79582 = {
 			isa = PBXGroup;
 			children = (
+				0C60AB6D1E5F7A58000DC043 /* GpsiesTrack (1).gpx */,
+				0C60AB6B1E5F79DC000DC043 /* GpsiesTrack.gpx */,
+				0C4099C61E37C3C700D79582 /* default.gpx */,
+				0CC0CD7B1E60C85A00E1A03B /* Location.gpx */,
 				0C4099AD1E37C21600D79582 /* spoofer */,
 				0C4099AC1E37C21600D79582 /* Products */,
 			);
@@ -135,9 +146,12 @@
 			files = (
 				0C4099BA1E37C21600D79582 /* Main.storyboard in Resources */,
 				0C4099B11E37C21600D79582 /* GameScene.sks in Resources */,
+				0C60AB6E1E5F7A58000DC043 /* GpsiesTrack (1).gpx in Resources */,
+				0C60AB6C1E5F79DC000DC043 /* GpsiesTrack.gpx in Resources */,
 				0C4099BC1E37C21600D79582 /* Assets.xcassets in Resources */,
 				0C4099BF1E37C21600D79582 /* LaunchScreen.storyboard in Resources */,
 				0C4099B31E37C21600D79582 /* Actions.sks in Resources */,
+				0C4099C71E37C3C700D79582 /* default.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = E94TX8U36Z;
 				INFOPLIST_FILE = spoofer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -286,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = E94TX8U36Z;
 				INFOPLIST_FILE = spoofer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -314,6 +330,7 @@
 				0C4099C51E37C21600D79582 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
